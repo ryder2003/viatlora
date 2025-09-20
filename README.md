@@ -1,77 +1,46 @@
-🌟 Vitalora
+# 🌟 Viatlora
 
-AI-Powered Calorie Tracker & Fitness Maintenance App
+[![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev/)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+[![Platform](https://img.shields.io/badge/Platforms-Android%20|%20iOS%20|%20Web-blue?style=for-the-badge)](#)
+
+**AI-Powered Calorie Tracker & Fitness Maintenance App**
 
 Viatlora is your intelligent fitness companion! Track calories, maintain workout routines, and stay on top of your health goals—all powered by AI to give you personalized insights.
 
-🚀 Features
+---
 
-🍏 AI Calorie Tracker: Automatically track your meals and calories.
+## 🚀 Features
 
-🏋️‍♂️ Fitness Routine Management: Plan, schedule, and monitor your workouts.
+- 🍏 **AI Calorie Tracker:** Automatically track your meals and calories.
+- 🏋️‍♂️ **Fitness Routine Management:** Plan, schedule, and monitor your workouts.
+- 📊 **Analytics & Insights:** Get personalized recommendations based on your progress.
+- 📱 **Cross-Platform:** Works on Android, iOS, and Web with a single Flutter codebase.
+- 🌙 **Sleek UI:** User-friendly and visually appealing interface.
 
-📊 Analytics & Insights: Get personalized recommendations based on your progress.
+---
 
-📱 Cross-Platform: Works on Android, iOS, and Web with a single Flutter codebase.
+## 🎨 Screenshots
 
-🌙 Sleek UI: User-friendly and visually appealing interface.
+![Home Screen](screenshots/home.png)  
+![Analytics](screenshots/analytics.png)  
+![Workout Plan](screenshots/workout.png)
 
-🎨 Screenshots
+---
 
+## 🛠️ Tech Stack
 
+- **Framework:** Flutter
+- **Languages:** Dart
+- **Platforms:** Android, iOS, Web
+- **Libraries:** AI modules for health tracking, state management, charts, etc.
 
+---
 
+## ⚙️ Installation
 
+1. **Clone the repository:**
 
-🛠️ Tech Stack
-
-Framework: Flutter
-
-Languages: Dart
-
-Platforms: Android, iOS, Web
-
-Libraries: AI modules for health tracking, state management, charts, etc.
-
-⚙️ Installation
-
-Clone the repository:
-
+```bash
 git clone https://github.com/ryder2003/viatlora.git
 cd viatlora
-
-
-Install dependencies:
-
-flutter pub get
-
-
-Run the app:
-
-Android:
-
-flutter run -d android
-
-
-iOS:
-
-flutter run -d ios
-
-
-Web:
-
-flutter run -d chrome
-
-📈 Roadmap
-
-Integration with wearable devices
-
-AI-powered meal suggestions
-
-Social features to share achievements
-
-Dark mode and customizable themes
-
-💖 Contributing
-
-Contributions are welcome! Feel free to open issues or submit pull requests. Let’s make Viatlora the ultimate AI fitness companion together!

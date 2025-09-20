@@ -171,10 +171,12 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
           _buildPage(
             'Enter Your Weight',
             'assets/onboarding/onboarding_weight.png',
-            TextField(
-              keyboardType: TextInputType.number,
-              onChanged: (value) => weight = double.tryParse(value),
-              decoration: InputDecoration(labelText: 'Weight in kg'),
+            Expanded(
+              child: TextField(
+                keyboardType: TextInputType.number,
+                onChanged: (value) => weight = double.tryParse(value),
+                decoration: InputDecoration(labelText: 'Weight in kg'),
+              ),
             ),
           ),
           _buildPage(
